@@ -2,8 +2,12 @@ import React from 'react';
 import './Track.css';
 
 class Track extends React.Component {
-  renderAction(isRemoval) {
-
+  renderAction() {
+    if (isRemoval) {
+      <a>-</a>;
+    } else {
+      <a>+</a>;
+    }
   }
 
   render() {
