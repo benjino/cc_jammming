@@ -2,6 +2,10 @@ import React from 'react';
 import './Track.css';
 
 class Track extends React.Component {
+  renderAction(isRemoval) {
+
+  }
+
   render() {
     return(
       <div className="Track">
@@ -14,3 +18,5 @@ class Track extends React.Component {
     );
   }
 }
+
+export default Track;
