@@ -9,12 +9,10 @@ class App extends React.Component {
     super(props);
     this.state = {
       searchResults: [
-        {
-          name: 'Purple Haze',
-          artist: 'Jimi Hendrix',
-          album: 'The Jimi Hendrix Experience – Are You Experienced',
-          id: '1234'
-        }
+        {name: 'Purple Haze', artist: 'Jimi Hendrix', album: 'The Jimi Hendrix Experience – Are You Experienced', id: '1234'},
+        {name: 'Purple Haze', artist: 'Jimi Hendrix', album: 'The Jimi Hendrix Experience – Are You Experienced', id: '1234'},
+        {name: 'Purple Haze', artist: 'Jimi Hendrix', album: 'The Jimi Hendrix Experience – Are You Experienced', id: '1234'},
+        {name: 'Purple Haze', artist: 'Jimi Hendrix', album: 'The Jimi Hendrix Experience – Are You Experienced', id: '1234'}
       ]
     }
   }
