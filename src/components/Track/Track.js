@@ -4,9 +4,9 @@ import './Track.css';
 class Track extends React.Component {
   renderAction() {
     if (isRemoval) {
-      <a>-</a>;
+      <a className="Track-action">-</a>;
     } else {
-      <a>+</a>;
+      <a className="Track-action">+</a>;
     }
   }
 
