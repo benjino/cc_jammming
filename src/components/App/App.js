@@ -10,10 +10,10 @@ class App extends React.Component {
     this.state = {
       searchResults: [
         {
-          name: '',
-          artist: '',
-          album: '',
-          id: ''
+          name: 'Purple Haze',
+          artist: 'Jimi Hendrix',
+          album: 'The Jimi Hendrix Experience – Are You Experienced',
+          id: '1234'
         }
       ]
     }
