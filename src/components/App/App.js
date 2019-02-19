@@ -24,7 +24,7 @@ class App extends React.Component {
         <div class="App">
           <SearchBar />
           <div className="App-playlist">
-            <SearchResults searchResults={this.state.searchResults}/>
+            <SearchResults searchResults={this.state.searchResults} />
             <Playlist />
           </div>
         </div>
