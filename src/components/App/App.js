@@ -7,14 +7,18 @@ import Playlist from '../Playlist/Playlist';
 class App extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
       searchResults: [
-        {name: 'Purple Haze', artist: 'Jimi Hendrix', album: 'The Jimi Hendrix Experience – Are You Experienced', id: '1234'},
-        {name: 'Purple Haze', artist: 'Jimi Hendrix', album: 'The Jimi Hendrix Experience – Are You Experienced', id: '1234'},
-        {name: 'Purple Haze', artist: 'Jimi Hendrix', album: 'The Jimi Hendrix Experience – Are You Experienced', id: '1234'},
-        {name: 'Purple Haze', artist: 'Jimi Hendrix', album: 'The Jimi Hendrix Experience – Are You Experienced', id: '1234'}
+        {name: 'Purple Haze', artist: 'Jimi Hendrix', album: 'Are You Experienced', id: '1234'},
+        {name: 'Purple Haze', artist: 'Jimi Hendrix', album: 'Are You Experienced', id: '1234'}
+      ],
+      playlistName: 'New Playlist',
+      playlistTracks: [
+        {name: 'Purple Haze', artist: 'Jimi Hendrix', album: 'Are You Experienced', id: '1234'},
+        {name: 'Purple Haze', artist: 'Jimi Hendrix', album: 'Are You Experienced', id: '1234'}
       ]
-    }
+    };
   }
 
   render() {
