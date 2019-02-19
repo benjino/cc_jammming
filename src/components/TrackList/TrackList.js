@@ -10,7 +10,7 @@ class TrackList extends React.Component {
           <Track
             key={track.id}
             track={track}
-          />
+            onAdd={this.props.onAdd} />
         )}
       </div>
     );
